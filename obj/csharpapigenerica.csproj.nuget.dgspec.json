@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\Documents\\My Docs\\ITM_Docs\\Apps y Servicios Web\\Proyecto\\csharpapigenerica\\csharpapigenerica.csproj": {}
+    "C:\\Users\\salak301\\Desktop\\Parcial 01\\csharpapigenerica\\csharpapigenerica.csproj": {}
   },
   "projects": {
-    "D:\\Users\\Documents\\My Docs\\ITM_Docs\\Apps y Servicios Web\\Proyecto\\csharpapigenerica\\csharpapigenerica.csproj": {
+    "C:\\Users\\salak301\\Desktop\\Parcial 01\\csharpapigenerica\\csharpapigenerica.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\Documents\\My Docs\\ITM_Docs\\Apps y Servicios Web\\Proyecto\\csharpapigenerica\\csharpapigenerica.csproj",
+        "projectUniqueName": "C:\\Users\\salak301\\Desktop\\Parcial 01\\csharpapigenerica\\csharpapigenerica.csproj",
         "projectName": "csharpapigenerica",
-        "projectPath": "D:\\Users\\Documents\\My Docs\\ITM_Docs\\Apps y Servicios Web\\Proyecto\\csharpapigenerica\\csharpapigenerica.csproj",
-        "packagesPath": "C:\\Users\\Jose Ocampo\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\Documents\\My Docs\\ITM_Docs\\Apps y Servicios Web\\Proyecto\\csharpapigenerica\\obj\\",
+        "projectPath": "C:\\Users\\salak301\\Desktop\\Parcial 01\\csharpapigenerica\\csharpapigenerica.csproj",
+        "packagesPath": "C:\\Users\\salak301\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\salak301\\Desktop\\Parcial 01\\csharpapigenerica\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Jose Ocampo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\salak301\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -44,8 +44,7 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.100"
+        }
       },
       "frameworks": {
         "net8.0": {
@@ -91,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
