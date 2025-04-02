@@ -249,3 +249,4 @@ C:\Users\salak301\Desktop\Parcial 01\csharpapigenerica\obj\Debug\net8.0\csharpap
 C:\Users\salak301\Desktop\Parcial 01\csharpapigenerica\obj\Debug\net8.0\csharpapigenerica.pdb
 C:\Users\salak301\Desktop\Parcial 01\csharpapigenerica\obj\Debug\net8.0\csharpapigenerica.genruntimeconfig.cache
 C:\Users\salak301\Desktop\Parcial 01\csharpapigenerica\obj\Debug\net8.0\ref\csharpapigenerica.dll
+D:\Users\Documents\My Docs\ITM_Docs\Apps y Servicios Web\Proyecto\csharpapigenerica\obj\Debug\net8.0\csharpapigenerica.sourcelink.json
