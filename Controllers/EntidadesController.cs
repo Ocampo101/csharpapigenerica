@@ -824,7 +824,7 @@ namespace csharpapigenerica.Controllers
                             .ToDictionary(col => col.ColumnName, col => fila[col] == DBNull.Value ? null : fila[col]))
                         .ToList();
 
-                    return Ok(lista);
+                    return Ok("Procedimiento Ejecutado Exitosamente!");
                 }
             }
             catch (Exception ex)
