@@ -478,6 +478,19 @@ namespace csharpapigenerica.Controllers
                 var propiedades = datosEntidad.ToDictionary( // Convierte los datos de la entidad en un diccionario de propiedades.
                     kvp => kvp.Key,
                     kvp => kvp.Value is JsonElement elementoJson ? ConvertirJsonElement(elementoJson) : kvp.Value);
+                
+                // Verifica si hay un campo de contraseña en los datos, y si lo hay, lo hashea.
+                var clavesContrasena = new[] { "password", "contrasena", "passw", "clave" }; // Lista de posibles nombres para campos de contraseña.
+                var claveContrasena = propiedades.Keys.FirstOrDefault(k => clavesContrasena.Any(pk => k.IndexOf(pk, StringComparison.OrdinalIgnoreCase) >= 0)); // Busca si alguno de los campos es una contraseña.
+                
+                if (claveContrasena != null) // Si se encontró un campo de contraseña.
+                {
+                    var contrasenaPlano = propiedades[claveContrasena]?.ToString(); // Obtiene el valor de la contraseña.
+                    if (!string.IsNullOrEmpty(contrasenaPlano)) // Si la contraseña no está vacía.
+                    {
+                        propiedades[claveContrasena] = BCrypt.Net.BCrypt.HashPassword(contrasenaPlano); // Hashea la contraseña.
+                    }
+                }
 
 
                 string proveedor = _configuration["DatabaseProvider"] ?? throw new InvalidOperationException("Proveedor de base de datos no configurado."); // Obtiene el proveedor de base de datos.
